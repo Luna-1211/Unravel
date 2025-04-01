@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Unravel</title>
+    <link rel="stylesheet" href="/Map/map.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+<div id="preloader">
+  <div id="preloader-text"></div>
+</div>
+    
+    <div id="leave_warning">
+      <h2>Attention!</h2>
+      <p>You are currently logged in as a guest leaving this page may result a lost of progress. Do you still want to leave?</p>
+      <a class="opt_1" href="/index.html">Proceed</a>
+      <a class="opt_2" onclick="Stay()">Cancel</a>
+    </div>
+    <a class="leave_btn" onclick="Confirm()" ><i class="fa fa-sign-out"></i></a>
+    <div id="buttons">
+      <ul>
+        <li><a onclick="SetWindow()"><i class="fa fa-gear"></i></a></li>
+        <li><a onclick="ShowCase()"><i class="fa fa-user-circle"></i></a></li>
+        <li><a id="deactivated" href="index.html"><i class="fa fa-book"></i></a></li>
+        <li><a onclick="Play()"><i class="fa fa-play"></i></a></li>
+      </ul>
+    </div>
+    
+    <div id="bldg_intrc">
+      
+      <div id="bldgs" class="bldg_1" onclick="Acad()"></div>
+      <div id="bldgs" class="bldg_2" onclick="Library()"></div>
+      <div id="bldgs" class="bldg_3" onclick="RF()"></div>
+      <div id="bldgs" class="bldg_4" onclick="Store()"></div>
+      <div id="bldgs" class="bldg_5" onclick="Cshop()"></div>
+      
+    </div>
+    
+    <div id="structures">
+      
+      <div id="academy">
+        <h3></h3>
+      </div>
+      
+      <div id="library">
+        <h3></h3>
+      </div>
+      
+      <div id="research_facility">
+        <h3></h3>
+      </div>
+      
+      <div id="store">
+        <h3></h3>
+      </div>
+      
+      <div id="coffee_shop">
+        <h3></h3>
+      </div>
+      
+    </div>
+    
+  </body>
+  <script src="/Map/map.js" type="text/javascript" charset="utf-8"></script>
+</html>
