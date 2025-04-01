@@ -43,7 +43,7 @@ function myLogin() {
 }
 
 function guest() {
-  window.location.replace('/Scene 1/scene_1.html');
+  window.location.replace(':Scene 1:scene_1.html');
 }
 
 window.onclick = function() {

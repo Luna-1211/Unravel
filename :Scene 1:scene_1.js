@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (document.getElementById("text").innerHTML === "I promise that I shall meet and exceed expectations.") {
           setTimeout(function () {
-            window.location.replace('/Scene 2/scene_2.html');
+            window.location.replace(':Scene 2:scene_2.html');
           }, 4000);
         }
         

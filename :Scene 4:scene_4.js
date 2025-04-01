@@ -129,54 +129,54 @@ function choice_1() {
     }
     
     if (currentText === "My goodness!-") {
-      characterPortrait_2.src = '/Cire/Untitled15_20241130182805.png';
+      characterPortrait_2.src = ':Cire:Untitled15_20241130182805.png';
       characterPortrait_2.style.width = "35%";
     }
     
     if (currentText === "Now I hope you don't mind the place-") {
-      characterPortrait_2.src = '/Cire/Untitled15_20241130182757.png';
+      characterPortrait_2.src = ':Cire:Untitled15_20241130182757.png';
       characterPortrait_2.style.width = "40%";
       gameMain.style.backgroundImage = "url('/Images/office.png')"
     }
     
     if (currentText === "Ahh...yes thank you.") {
-      characterPortrait_1.src = '/Caster/talking happy.png';
+      characterPortrait_1.src = ':Caster:talking happy.png';
       characterPortrait_1.style.display = "block";
       characterPortrait_2.style.display = "none";
     }
     
     if (currentText === "Of course! It’s rare to find one as talented as you are!") {
-      characterPortrait_2.src = '/Cire/Untitled15_20241130182757.png';
+      characterPortrait_2.src = ':Cire:Untitled15_20241130182757.png';
       characterPortrait_1.style.display = "none";
       characterPortrait_2.style.display = "block";
     }
     
     if (currentText === "Such a high praise...it honestly make me quite anxious.") {
-      characterPortrait_1.src = '/Caster/questioning_2.png';
+      characterPortrait_1.src = ':Caster:questioning_2.png';
       characterPortrait_1.style.display = "block";
       characterPortrait_2.style.display = "none";
     }
     
     if (currentText === "Ah yes, yes, I’d love to aid you of your needs, dear.") {
-      characterPortrait_2.src = '/Cire/Untitled15_20241130182737.png';
+      characterPortrait_2.src = ':Cire:Untitled15_20241130182737.png';
       characterPortrait_1.style.display = "none";
       characterPortrait_2.style.display = "block";
     }
     
     if (currentText === "Yes, please.") {
-      characterPortrait_1.src = '/Caster/talking happy.png';
+      characterPortrait_1.src = ':Caster:talking happy.png';
       characterPortrait_1.style.display = "block";
       characterPortrait_2.style.display = "none";
     }
     
     if (currentText === "I’ll be back in a bit, feel free to check around!") {
-      characterPortrait_2.src = '/Cire/Untitled15_20241130182757.png';
+      characterPortrait_2.src = ':Cire:Untitled15_20241130182757.png';
       characterPortrait_1.style.display = "none";
       characterPortrait_2.style.display = "block";
     }
     
     if (currentText === "...") {
-      characterPortrait_1.src = '/Caster/no_expression.png';
+      characterPortrait_1.src = ':Caster:no_expression.png';
       characterPortrait_2.style.display = "none";
       characterPortrait_1.style.display = "block";
     }
@@ -194,7 +194,7 @@ function choice_1() {
 
   function choice_2() {
       
-  window.location.replace('/Scene 4/scene_4int.html');
+  window.location.replace(':Scene 4:scene_4int.html');
       
 }
 
@@ -203,6 +203,6 @@ function choice_1() {
 
 function choice_4() {
   
-  window.location.replace('/Scene 5/scene_5.html');
+  window.location.replace(':Scene 5:scene_5.html');
   
 }

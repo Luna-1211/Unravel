@@ -115,7 +115,7 @@ function choice_4() {
       }
       if (document.getElementById("text").innerHTML === "Maybe I'll just comeback later.") {
         setTimeout(function (){
-          window.location.replace('/Scene 4/scene_4.html');
+          window.location.replace(':Scene 4:scene_4.html');
         }, 2000);
       }
       const opt_3 = document.getElementById("c_3").style.display = "none";

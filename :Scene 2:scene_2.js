@@ -31,18 +31,18 @@ document.addEventListener("DOMContentLoaded", function() {
           document.getElementById("text").style.fontStyle = "normal";
         }
         if (document.getElementById("text").innerHTML === "Huh?...") {
-          document.getElementById("chc_1").src = "/Caster/questioning_2.png";
+          document.getElementById("chc_1").src = ":Caster:questioning_2.png";
           document.getElementById("chc_1").style.width = "45%";
           document.getElementById("chc_1").style.height = "90%";
         }
         if (document.getElementById("text").innerHTML === "Fortunately...") {
-          document.getElementById("chc_1").src = "/Caster/talking happy.png";
+          document.getElementById("chc_1").src = ":Caster:talking happy.png";
           document.getElementById("chc_1").style.width = "40%";
           document.getElementById("chc_1").style.height = "80%";
         }
         if (document.getElementById("text").innerHTML === "I know just the guy who can help me.") {
           setTimeout(function () {
-            window.location.replace("/Scene 3/scene_3.html");
+            window.location.replace(":Scene 3:scene_3.html");
           }, 4000);
         }
   });

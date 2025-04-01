@@ -149,44 +149,44 @@ const nameMapping = {
       if (currentText === "Praytell dear! What could I help you with?") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182757.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182757.png";
         }
       
       if (currentText === "If you haven’t heard, Rim Bourne Academy will be participating in the National Student-Teaching Program.") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/questioning_2.png";
+        characterPortrait_1.src = ":Caster:questioning_2.png";
         characterPortrait_2.style.display = "none";
         }
       
       if (currentText === "Mhm...mhm") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182742.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182742.png";
         }
       
       if (currentText === "Oh?") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/talking happy.png";
+        characterPortrait_1.src = ":Caster:talking happy.png";
         characterPortrait_2.style.display = "none";
         }
       
       if (currentText === "Or rather-") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182742.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182742.png";
         }
       
       if (currentText === "Bleh!...Too bitter...") {
         characterPortrait_1.style.display = "block";
         characterPortrait_1.style.height = "90%";
-        characterPortrait_1.src = "/Caster/horrified.png";
+        characterPortrait_1.src = ":Caster:horrified.png";
         characterPortrait_2.style.display = "none";
         }
       
       if (currentText === "Pfft...Hahahaha!") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182742.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182742.png";
         }
       
       if (currentText === "The bitterness is on purpose..?") {
@@ -197,12 +197,12 @@ const nameMapping = {
       if (currentText === "Yes dear, I do agree the taste is.. Sickening but it does keep me up at night.") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182742.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182742.png";
         }
       
       if (currentText === "That.. makes sense.") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/questioning_2.png";
+        characterPortrait_1.src = ":Caster:questioning_2.png";
         characterPortrait_1.style.width = "50%";
         characterPortrait_2.style.display = "none";
       }
@@ -210,12 +210,12 @@ const nameMapping = {
       if (currentText === "Would you not prefer me to get you a glass of water instead?") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182742.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182742.png";
       }
       
       if (currentText === "No need, please do continue what you were saying.") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/no_expression.png";
+        characterPortrait_1.src = ":Caster:no_expression.png";
         characterPortrait_2.style.display = "none";
       }
       
@@ -223,57 +223,57 @@ const nameMapping = {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
         characterPortrait_2.style.width = "40%";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182737.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182737.png";
       }
       
       if (currentText === "(The tone of his voice is suddenly filled with excitement)") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/no_expression.png";
+        characterPortrait_1.src = ":Caster:no_expression.png";
         characterPortrait_2.style.display = "none";
       }
       
       if (currentText === "You came at the perfect time!") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182737.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182737.png";
       }
       if (currentText === "(The way he stood up, he then takes a few steps before turning to me.)") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/no_expression.png";
+        characterPortrait_1.src = ":Caster:no_expression.png";
         characterPortrait_2.style.display = "none";
       }
       
       if (currentText === "Come dear!") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182653.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182653.png";
       }
       if (currentText === "(He walks up to one of the shelves, the one that piqued my interest a while ago.)") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/disbelief.png";
+        characterPortrait_1.src = ":Caster:disbelief.png";
         characterPortrait_2.style.display = "none";
       }
       
       if (currentText === "Let me show you what knowledge could actually make.") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182653.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182653.png";
       }
       
       if (currentText === "(With a pull of a book, the shelf begins to drag itself forward, revealing a hidden door behind it.)") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/disbelief.png";
+        characterPortrait_1.src = ":Caster:disbelief.png";
         characterPortrait_2.style.display = "none";
       }
       
       if (currentText === "(Aren’t I impressive?)") {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182653.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182653.png";
       }
       if (currentText === "Gulp...") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/disbelief.png";
+        characterPortrait_1.src = ":Caster:disbelief.png";
         characterPortrait_2.style.display = "none";
       }
       
@@ -281,14 +281,14 @@ const nameMapping = {
         characterPortrait_1.style.display = "none";
         characterPortrait_2.style.display = "block";
         characterPortrait_2.style.height = "90%";
-        characterPortrait_2.src = "/Cire/Untitled15_20241130182716.png";
+        characterPortrait_2.src = ":Cire:Untitled15_20241130182716.png";
       }
       if (currentText === "...") {
         characterPortrait_1.style.display = "block";
-        characterPortrait_1.src = "/Caster/disbelief.png";
+        characterPortrait_1.src = ":Caster:disbelief.png";
         characterPortrait_2.style.display = "none";
         setTimeout(function (){
-          window.location.replace('')
+          window.alert('Sorry but other contents are not connected for the moment...')
         }, 2000);
       }
       option1Element.style.display = "none";
