@@ -201,6 +201,6 @@ function choice_3() {
 
 function choice_4() {
   
-  window.location.replace('/Scene 5/scene_5.html');
+  window.location.replace(':Scene 5:scene_5.html');
   
 }
