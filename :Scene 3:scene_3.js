@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
     document.getElementById("preloader").style.opacity = "0";
     document.getElementById("preloader").style.display = "none";
-  }, 7000);
+  }, 5000);
 });
 
     let textIndex = 0;
@@ -94,6 +94,9 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById("text").innerHTML = texts_3[++textIndex_3];
     }
     if (document.getElementById("text").innerHTML === "(Footsteps...)") {
+      setTimeout(function () {
+        window.location.replace(':Scene 3:scene_3.2.html')
+      }, 2000);
     }
     const opt_3 = document.getElementById("c_3").style.display = "none";
     
